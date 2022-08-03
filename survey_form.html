@@ -1,0 +1,63 @@
+<!DOCTYPE>
+<html>
+    <head lang="en">
+        <title>Survey Form</title>
+        <style>
+            #submit_button{
+                color:orange;
+                background-color: black;
+                border-radius: 5px;
+            }
+            body{
+                background-color: antiquewhite;
+            }
+            *{
+                font-family:monospace;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div align="center">
+        <h1>INTEREST SURVEY FORM</h1>
+        <form action="/action.php">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="department">Enter your department:</label>
+            <input type="text" id="department" name="department"><br><br>
+            <label for="about yourself">Tell us a little about yourself:</label>
+            <textarea name="about you" rows="5" cols="30">
+
+            </textarea><br><br>
+
+            <label for="exercise">Do you exercise at home?</label>
+            <input type="radio" id="yes" name="y/n" value=1>
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="y/n" value=2>
+            <label for="no">No</label>
+
+            <p>How do you like to read about your favorite topics?</p>
+            <input type="checkbox" id="option_1" name="books" value="option_1">
+            <label for="books">Books</label>
+            <input type="checkbox" id="option_2" name="online_resources" value="option_2">
+            <label for="online_resources">Online resources</label>
+            <input type="checkbox" id="option_3" name="apps" value="option_3">
+            <label for="apps">Phone apps</label>
+            <input type="checkbox" id="option_4" name="magazine" value="option_4">
+            <label for="magazine">Magazines</label><br><br>
+
+            <label for="movie_genre">What genre of movies do you like?</label>
+            <select selected="Comedy">
+                <option>Comedy</option>
+                <option>Thriller</option>
+                <option>Drama</option>
+                <option>Fantasy</option>
+                <option>Action</option>
+                <option>Horror</option>
+            </select><br>
+            <input type="submit" value="submit form" id="submit_button">
+            <input type="reset">
+            </div>
+        </form>
+    </body>
+</html>
