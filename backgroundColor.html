@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background changer</title>
+    <link rel="stylesheet" href="CSS/backgroundColor.css">
+</head>
+
+<body>
+    <button id="button">Click Me!</button>
+
+    <script>
+        var button =document.getElementById("button")
+        let colors = ["red", "blue", "green", "teal", "yellow"]
+
+        function handleClick() {
+            document.body.style.backgroundColor =colors[Math.floor(Math.random() * colors.length)]
+        }
+
+        button.addEventListener("click", handleClick)
+    </script>
+</body>
+</html>

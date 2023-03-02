@@ -1,0 +1,67 @@
+* {
+    border: solid green 2px;
+}
+body {
+    margin: 50px 200px 10px 200px;
+}
+
+/*flex sections*/
+header {
+    display: flex;
+}
+.container {
+    display: flex;
+}
+.writeup {
+    display: flex;
+    margin-right: 50px;
+}
+.containerL {
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* images*/
+.icon {
+    width: 40px;
+    height: 30px;
+}
+.blocks {
+    width:680px;
+    height: 250px;
+}
+.small_pic {
+    width: 80px;
+    height: 100px;
+}
+
+/*header*/
+nav {
+    margin-left: 100px;
+}
+
+
+/*layout*/
+
+.sidePanel {
+    margin-left: -50px;
+}
+.wrapL {
+    margin-right: 45px;
+    margin-bottom: -50px;
+}
+
+h1.question {
+    margin-right: 150px;
+}
+.smallText {
+    margin-left: -100px;
+}
+.intro_text {
+    margin-right: -100px;
+}
+#third {
+    margin-right: -23px;
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+div {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 17px;
+    width: 119.5px;
+    height: 330px;
+    margin: 160px 0px 0px 530px;
+    padding: 10px 100px 100px 70px;
+   
+}
+.paragraph {
+    font-size: 15px;
+}
+img {
+    width: 270px;
+    height: 270px;
+    margin: -1px 25px 100px -60.5px;
+    border-radius: 12px;
+}
+
+/*p {
+    border-color:  solid black 50px; 
+}*/
+.bold{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin: -80px -60px 0px -35px;
+    text-align: center;
+    font-size: 18.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paragraph {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 14.5px;
+    margin: 10px -60px 0px -35px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

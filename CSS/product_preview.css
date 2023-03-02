@@ -1,0 +1,55 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 670px;
+    height: 500px;
+    margin: 130px 0px 0px 400px;
+    border-radius: 5px;
+}
+
+img {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.name {
+    margin-left: 30px;
+    font-family: ;
+}
+
+.product_name {
+    margin: 0px 100px 0px 30px;
+    font-family: https://fonts.google.com/specimen/Montserrat);
+}
+
+.description {
+    margin: 40px 100px 0px 30px;
+}
+
+.price {
+    margin: 30px 100px 0px 30px;
+}
+
+.prices {
+    display: flex;
+}
+.deleted {
+    margin: 38px 30px -30px -80px;
+}
+
+.cart {
+    margin: 30px 0px 0px 26px;
+    background-color: aqua;
+    height: 40px;
+    width: 200px;
+    padding: 20px 0px 0px 88px;
+    border-radius: 10px;
+    
+}
+.icon {
+    margin-right: 10px;
+}

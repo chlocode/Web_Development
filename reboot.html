@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title></title>
+        <link rel="stylesheet" href="CSS/reboot.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Survey Form</h1>
+            <h5>short description</h5>
+        </header>
+
+        <form action="">
+            First name: <input type="text" name="firstname"><br>
+            Last name: <input type="text" name="lastname"><br>
+            Username: <input type="text" name="user"><br>
+            Password: <input type="password" name="password"><br>
+
+            <fieldset>
+                <legend>Personal Information:</legend>
+                Address:<input type="text" size="30"><br>
+                E-mail:<input type="text" size="30"><br>
+            </fieldset>
+            
+            <input type="checkbox" name="agreement" value="yes"><b>I have read and agree to the terms and conditions</b><br>
+
+            <input type="radio" name="sex" value="male">Male<br>
+            <input type="radio" name="sex" value="female">Female<br>
+            
+            <p>select your profession below:</p> 
+            <select name="profession">
+                <option value="teacher">Teacher</option>
+                <option value="student" selected>Student</option>
+                <option value="doctor">Doctor</option>
+            </select>
+
+            <p>Please tell us why we should <em>hire</em> you</p>
+            <textarea rows="10" cols="30">Write here</textarea><br>
+
+            <input type="submit" >
+        </form>
+    </body>
+</html>
