@@ -1,8 +1,11 @@
-* {
-    border: solid green 2px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,800&display=swap');
+:root{
+    --heading-font: "Inter";
 }
+
 body {
     margin: 50px 200px 10px 200px;
+    font-family: var(--heading-font);
 }
 
 /*flex sections*/
@@ -19,17 +22,17 @@ header {
 .containerL {
     display: flex;
     margin-right: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 
 /* images*/
 .icon {
-    width: 40px;
+    width: 55px;
     height: 30px;
 }
 .blocks {
-    width:680px;
+    width:740px;
     height: 250px;
 }
 .small_pic {
@@ -38,30 +41,98 @@ header {
 }
 
 /*header*/
+header{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 nav {
-    margin-left: 100px;
+    /*margin-left: 100px;*/
+    margin-left: 620px;
+    color: hsl(236, 13%, 42%);
+}
+.menu{
+    margin-left: 21px;
 }
 
 
 /*layout*/
 
 .sidePanel {
-    margin-left: -50px;
+    margin: 0px 0px 0px 5px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    margin-bottom: 40px;
+    padding: 0px 18px 20px 18px;
 }
 .wrapL {
     margin-right: 45px;
     margin-bottom: -50px;
 }
+.wrap{
+   margin-right: 20px;
+}
 
-h1.question {
-    margin-right: 150px;
+
+/*text*/
+
+.question {
+    margin-right: 180px;
+    font-size: 45px;
+    color: hsl(240, 100%, 5%);
 }
 .smallText {
-    margin-left: -100px;
+    margin-left: -70px;
+    margin-right: -45px;
+    display: inline;
+    color: hsl(236, 13%, 42%);
+    
 }
 .intro_text {
-    margin-right: -100px;
+    margin-bottom: 40px;
 }
 #third {
-    margin-right: -23px;
+    margin-right: -5px;
+}
+.numbers{
+    margin-top: -5px;
+    margin-left: 15px;
+    color:  hsl(233, 8%, 79%);
+}
+.title{
+    margin-left: 15px;
+    margin-top: -18px;
+    color: hsl(240, 100%, 5%);
+    font-weight: bold;
+}
+.description{
+    margin-left: 15px;
+    margin-top: -3px;
+    color: hsl(236, 13%, 42%);
+}
+.under{
+    margin-top: -16px;
+}
+button{
+    background-color: hsl(5, 85%, 63%);
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0px;
+    color: hsl(36, 100%, 99%);
+    letter-spacing: 4px;
+}
+.new{
+    color: hsl(35, 77%, 62%);
+}
+.p{
+    font-size: 15px;
+}
+.bold{
+    color: hsl(36, 100%, 99%);
+    font-weight: bold;
+}
+.note{
+    color: hsl(233, 8%, 79%);
 }
