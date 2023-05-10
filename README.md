@@ -1,5 +1,5 @@
 # Web_Development
-A compilation of HTML and CSS files for various projects. The files are organised by language and are linked by an index.html page.
+A compilation of HTML and CSS files for various project components. The files are organised by language and are linked by an index.html page.
 
 ## Table of Contents
 - Installation
