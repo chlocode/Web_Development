@@ -1,12 +1,11 @@
 # Web_Development
-A compilation of HTML and CSS files for various project components. The files are organised by language and are linked by an index.html page.
+A compilation of program files and resources for web development project components. The files are organised by web development language and are linked by an index.html page.
 
-## Table of Contents
-- Installation
-- Usage
-
-## Installation
-To use the files in this repository, simply clone or download the repository to your local machine.
+## Folders in this repository
+- CSS: contains html styling files
+- html: contains component structure
+- icons: contains svg and png resources
+- photos: contains image resources
 
 ## Usage
 The HTML and CSS files in this repository can be used as components for various web development projects. Feel free to modify or build upon them as needed.
