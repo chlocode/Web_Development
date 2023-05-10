@@ -1,0 +1,93 @@
+
+.mainpage{
+    background-image: url(../photos/scott-webb-GQD3Av_9A88-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: aquamarine;
+    padding: 1%;
+}
+nav{
+    margin-left: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+nav a{
+    padding: 1em;
+    text-decoration:  none;
+}
+nav a:hover{
+    background-color: white;
+}
+.menu{
+    color: black;
+    margin-left: 5%;
+}
+h1{
+    margin-left: 45%;
+    font-size: 50px;
+    font-family: monospace;
+}
+.first{
+    margin-left: 46%;
+}
+h3{
+    margin-left: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.projectLink{
+    margin-left: 50%;
+    border: 0px;
+    padding: 1.5%;
+    background-color: #FF8833;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    background-color: white;
+    color: #FF8833;
+}
+
+/*projectpage*/
+.projecth1{
+    font-family: monospace;
+}
+.items{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 180%;
+}
+.items:hover{
+    color:#FF8833;
+}
+
+/*contact page*/
+.contactimg{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.C_img{
+    width: 20%;
+    height: 20%;
+}
+#lope{
+    margin-left: 10%;
+}
+#bird{
+    margin-left: 23%;;
+}
+.handles{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+}
+#twitter{
+    margin-left: 26%;
+}
+#email{
+    margin-left: 14.5%;
+}
