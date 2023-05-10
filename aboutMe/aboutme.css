@@ -1,26 +1,50 @@
-/**{
-    
-}*/
-body{
-    background-color: wheat;
-    text-align: center;
-    margin-top: -10px;
+header{
+    background-color: aquamarine;
+    padding: 1%;
+}
+nav{
+    margin-left: 80%;
+    display: flex;
+}
+nav a{
+    padding: 1em;
+    text-decoration:  none;
+}
+nav a:hover{
+    background-color: white;
+}
+.menu{
+    color: black;
+    margin-left: 5%;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 2%;
 }
 img{
     border-radius: 0px;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 290px;
+    height: 20%;
+}
+h2{
+    font-family: monospace;
 }
 p{
     font-size: larger;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 em{
     color: goldenrod;
 }
-.hi{
-    font-family: Arial, Helvetica, sans-serif;
-}
 .name{
-    margin-top: -18px;
+    margin-top: 2%;
 }
 .middle{
     margin-top: -20px;
