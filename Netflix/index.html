@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="netflix.css">
+        <script src="index.js"></script>
+    </head>
+
+    <body class="mainpage">
+        <header class="top">
+            <a><img src="logo.png" alt="Netflix logo"></a>
+            <a href= "sign_In_page.html" class="sign-in">Sign In</a>
+        </header>
+
+        <div class="text">
+
+            <h1>Unlimited movies, TV shows, and more</h1>
+            <p class="sv">Watch anywhere. Cancel anytime.</p>
+            <p class="svc">Ready to watch? Enter your email to create or restart your membership</p>
+            <div class="form">
+                <input type="email" placeholder="Email address" id="mail" required >
+                <button type="button" id ="page1-button" onclick="printText(mail)" onclick = "ValidateEmail(mail)">Get Started</button>
+            </div>
+            <div id="demo"></div>
+
+        </div>
+    </body>
+</html>
