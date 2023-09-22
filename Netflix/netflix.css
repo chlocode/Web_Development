@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fragment Mono");
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/4306f3b2-55d9-4126-a385-61c92e69de06/GH-en-20230918-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+img{
+    width: 80%;
+    grid-column: 2/3;
+    margin-top: 5px;
+    margin-left: 63%;
+    justify-self: start;
+}
+
+.top{
+    display: grid;
+    /*background-color: orange;*/
+   
+    grid-template-columns: repeat(6, 1fr);
+}
+.sign-in{
+    text-decoration: none;
+    margin-left: -45%;
+    grid-column: 5/6;
+    padding-top: 5px;
+    width: 33%;
+    border-radius: 5px ;
+    border-color: red;
+    justify-self: end;
+    align-self: center;
+    color: white;
+    text-align: center;
+    height: 25%;
+    background-color: red;
+}
+.sign-in:hover{
+    background-color: rgba(255, 0, 0, 0.833);
+}
+.text{
+    text-align: center;
+    margin-top: 7%;
+}
+h1{
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.sv{
+    margin-top: -2%;
+    font-size: 28px;
+    font-weight: 5px;
+}
+.svc{
+    font-size: 22px;
+    font-weight: 5px;
+}
+.form{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+#mail{
+    grid-column: 1/2;
+    background: none;
+    border: 1px solid grey;
+    margin-right: -350px;
+    border-radius: 5px;
+    width: 95%;
+    height: 65px;
+    justify-self: end;
+    color: white;
+
+}
+#page1-button{
+    grid-column: 2/3;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    border: none;
+    width: 26%;
+    height: 67px;
+    margin-left: 370px;
+    justify-self: start;
+}
+#page1-button:hover{
+    background-color: rgba(255, 0, 0, 0.833);
+}
+
+
+/*PAGE2*/
+.image1{
+    margin-left: 10%;
+}
+.page{
+    background-color: rgba(0, 0, 0, 0.532) ;
+    height: 90vh;
+    width: 35%;
+    margin-top: -3%;
+    margin-left: 32% ;
+    margin-right: 15%;
+   /* width: 400px;
+    height: 400px;
+   margin-left: 600px;
+   margin-top: 200px;
+   border-radius: 5px;*/
+}
+.img2{
+    width:40px;
+    height: 40px;
+}
+h2{
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    margin-left: 80px;
+    margin-right: 40px;
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Poppin', sans-serif;
+}
+.container{
+    display: grid;
+}
+#textbox1{
+   width: 60%;
+   height: 30px;
+   padding: 12px 20px;
+   margin-left: 80px;
+   margin-right: 8px;
+   margin-top: -5px;
+   border-radius: 5px;
+   border-color: transparent;
+   background-color: rgb(59, 58, 58);
+}
+#demo{
+    margin-left: 80px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-top: -3px;
+    border-radius: 5px;
+}
+#textbox2{
+    width: 60%;
+    height: 30px;
+    padding: 12px 20px;
+    margin-left: 80px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-top: -3px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(59, 58, 58);
+ }
+ .small-container{
+    display: grid;
+ }
+ input.box{
+    width: 18px;
+    height: 18px;
+ }
+.page2-text{
+    font-family: sans-serif;
+    color: rgb(187, 187, 187);
+    margin-left: 15%;
+    font-size: 17px;
+}
+.page-link{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    margin-left: 67%;
+    margin-top: -8.5%;
+}
+.page-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(187, 187, 187);
+}
+.page2-button{
+    width: 68.3%;
+   padding: 12px 20px;
+   margin-top: 5px;
+   margin-left: 82px;
+   margin-right: 8px;
+   margin-bottom: 8px;
+   box-sizing: border-box;
+   border-radius: 5px ;
+   border-color: transparent;
+   background-color: red;
+   text-align: center;
+   color: white;
+   text-decoration: none;
+}
+.prompt{
+    color: rgb(187, 187, 187);
+    margin-left: 16%;
+    font-size: 17px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
