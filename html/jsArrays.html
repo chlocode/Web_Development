@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../CSS/jsArray.css">
+    </head>
+    <body>
+        <h1>JavaScript Arrays</h1> 
+        <h2>The toString() Method</h2>
+
+        <p>The toString() method returns an array as a comma separated string:</p>
+
+        <p id="demo"></p>
+
+        <script>
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("demo").innerHTML = fruits.toString();
+        </script>
+
+<input type="text" placeholder="Type " id="inputId">
+<button type="button" onclick="getInputValue();">Get Value</button>
+<script>
+  function getInputValue() {
+    // Selecting the input element and get its value 
+    let inputVal = document.getElementById("inputId").value;
+    // Displaying the value
+    console.log(inputVal);
+  }
+</script>
+
+    </body>
+</html>
